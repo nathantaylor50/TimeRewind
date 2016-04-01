@@ -13,4 +13,4 @@ only add the script to objects you wish to be affected by the time rewind
 
 #issues:
 ~~~objects skips when rewinding after collision, further testing is needed.~~~~
-this happended because the list max limit was not enough, increasing the limit fixed this.
+this happened because the list max limit was not high enough, increasing the limit fixed this.
