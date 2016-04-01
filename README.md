@@ -11,6 +11,8 @@ so the counter calculation is not done by all the game objects
 
 only add the script to objects you wish to be affected by the time rewind
 
+![Player example](https://github.com/nathantaylor50/TimeRewind/blob/master/2016-04-01_14-31-22.webm)
+
 #issues:
 ~~~objects skips when rewinding after collision, further testing is needed.~~~~
 this happened because the list max limit was not high enough, increasing the limit fixed this.
