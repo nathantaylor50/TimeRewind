@@ -22,7 +22,7 @@ public class TimeKeeper : MonoBehaviour
 	//bool and reference to the rigidbody component
 	bool isRewinding;
 	//max list size
-	int listLimit = 500;
+	int listLimit = 1000;
 	//store max time limit for which this mechanic can be used
 	int timeLimitInSeconds = 10;
 	Rigidbody rb;
@@ -76,6 +76,7 @@ public class TimeKeeper : MonoBehaviour
 	void Rewind ()
 	{
 		if (indexVal > 0) {
+			//decrease index
 			indexVal--;
 
 			transform.position = positionVal [indexVal];
