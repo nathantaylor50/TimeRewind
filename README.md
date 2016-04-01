@@ -12,4 +12,4 @@ so the counter calculation is not done by all the game objects
 only add the script to objects you wish to be affected by the time rewind
 
 #issues:
-objects skip after collision, further testing is needed.
+objects skips when rewinding after collision, further testing is needed.
